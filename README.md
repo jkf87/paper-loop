@@ -156,7 +156,7 @@ claude-code subagent run \
                   Where Reviews Re-Design Experiments},
   author       = {Han, Jungu},
   year         = {2026},
-  howpublished = {AAICon 2026 (Korean AI Friends Conference)},
+  howpublished = {AAICon 2026 },
   note         = {\url{https://github.com/jkf87/paper-loop}}
 }
 ```
