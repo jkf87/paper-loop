@@ -46,6 +46,7 @@ Claude Code 기반 **AI-for-Science 자율 연구 하네스** 공개 저장소.
 │   └── abstract/                    AAICon 1페이지 초록 심사 이력
 │
 └── prompts/
+    ├── harness_pipeline_prompt.md   ← 🆕 최상위 오케스트레이터 프롬프트 (5단계 파이프라인 + 피드백 루프 + 3라운드 Paper Loop 실증 예)
     └── reviewer_prompt_templates.md ← 4역할(R1·R2·R3·교신교수) 시스템 프롬프트 (영·한)
 ```
 
