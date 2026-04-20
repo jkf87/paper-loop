@@ -1,11 +1,12 @@
-# Research Paper Production Harness with Claude Code
+# Paper Loop: 리뷰가 실험을 재설계하는 자기참조 AI-for-Science 하네스
+### Paper Loop: A Self-Referential AI-for-Science Harness Where Reviews Re-Design Experiments
 
-Claude Code 기반 1인 연구자용 **논문 제작 하네스** 공개 저장소.
+Claude Code 기반 **AI-for-Science 자율 연구 하네스** 공개 저장소.
 학습·평가 코드, 11개 run 실험 로그, 3라운드 피어 리뷰 이력, 4역할 리뷰어 프롬프트 템플릿(영·한)을 전량 공개한다.
 
 > **하네스 개념**
-> 1인 연구자의 병목은 노동량이 아니라 **역할 전환 비용과 비판적 자기 검토의 부재**이다.
-> 본 하네스는 Claude Code를 오케스트레이터로 삼아 실험 설계 → 학습/평가 → 분석 → 집필 → 피어 리뷰(R1·R2·R3 + 교신교수)의 5단계 파이프라인을 구성하며, **리뷰 지적이 실행 가능한 태스크로 번역되어 첫 단계로 재유입되는 자기참조적 수정 사이클**이 전원 Accept에 이를 때까지 반복된다.
+> 기존 AI-for-Science 자동화(AI Scientist 계열)는 대체로 *아이디어 → 초안*의 1회성 생성에 머물러, 리뷰 지적이 실험 자체를 재설계하도록 되돌려지는 구조가 없다.
+> **Paper Loop**는 Claude Code를 오케스트레이터로 삼아 실험 설계 → 학습/평가 → 분석 → 집필 → 피어 리뷰(R1·R2·R3 + 교신교수)의 5단계 파이프라인을 구성하며, **리뷰 지적이 실행 가능한 태스크로 번역되어 첫 단계로 재유입되는 자기참조적 수정 사이클**이 전원 Accept에 이를 때까지 반복된다. 즉 **리뷰가 글을 고치는 것이 아니라 실험 자체를 재발주**한다.
 
 **사례 연구**: 단일 Apple M4 노트북에서 zeroth_korean Whisper Small LoRA 랭크 스케일링 **11회의 실제 학습/평가를 인간 개입 없이 자율 실행**(10회가 리뷰 지적에 의해 유발). 피어 리뷰는 **Reject → Weak Accept → Accept**의 3라운드 궤적을 완주. CER 13.18% → **8.01%(r=64 4시드 평균, 약 39% 상대 감소)**, **시드 분산이 랭크에 반비례**(r=16 SD 0.48 vs r=64 SD 0.07 %p, **6.9×**)하는 부수 관찰까지 산출.
 
@@ -149,10 +150,10 @@ claude-code subagent run \
 ## 인용
 
 ```bibtex
-@misc{researchharness2026,
-  title        = {A Research Paper Production Harness with Claude Code for Solo Researchers:
-                  A Case Study on Korean Whisper LoRA Adaptation},
-  author       = {Anonymous},
+@misc{paperloop2026,
+  title        = {Paper Loop: A Self-Referential AI-for-Science Harness
+                  Where Reviews Re-Design Experiments},
+  author       = {Han, Jungu},
   year         = {2026},
   howpublished = {AAICon 2026 (Korean AI Friends Conference)},
   note         = {\url{https://github.com/jkf87/research-harness-claude-code}}
