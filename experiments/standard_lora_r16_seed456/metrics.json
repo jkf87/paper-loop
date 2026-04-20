@@ -1,0 +1,12 @@
+{
+  "run_name": "standard_lora_r16_seed456",
+  "cer": 0.0929,
+  "wer": 0.2939,
+  "phonetic_accuracy": 0.9071,
+  "num_samples": 457,
+  "avg_latency_sec": 1.0523,
+  "total_time_sec": 480.9,
+  "train_loss": 4.718218182760571,
+  "train_time_sec": 2031.1,
+  "train_samples": 1000
+}

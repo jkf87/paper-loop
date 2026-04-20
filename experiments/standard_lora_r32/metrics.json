@@ -1,0 +1,12 @@
+{
+  "run_name": "standard_lora_r32",
+  "cer": 0.0821,
+  "wer": 0.2674,
+  "phonetic_accuracy": 0.9179,
+  "num_samples": 457,
+  "avg_latency_sec": 1.0538,
+  "total_time_sec": 481.6,
+  "train_loss": 3.9777319469149153,
+  "train_time_sec": 2194.4,
+  "train_samples": 1000
+}

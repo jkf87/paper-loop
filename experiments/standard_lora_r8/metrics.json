@@ -1,0 +1,12 @@
+{
+  "run_name": "standard_lora_r8",
+  "cer": 0.1027,
+  "wer": 0.3135,
+  "phonetic_accuracy": 0.8973,
+  "num_samples": 457,
+  "avg_latency_sec": 1.0537,
+  "total_time_sec": 481.56,
+  "train_loss": 5.576155223543682,
+  "train_time_sec": 1957.6,
+  "train_samples": 1000
+}

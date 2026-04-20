@@ -1,0 +1,9 @@
+{
+  "run_name": "baseline_whisper_small",
+  "cer": 0.1318,
+  "wer": 0.3921,
+  "phonetic_accuracy": 0.8682,
+  "num_samples": 457,
+  "avg_latency_sec": 1.3465,
+  "total_time_sec": 615.34
+}
