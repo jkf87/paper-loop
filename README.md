@@ -156,7 +156,7 @@ claude-code subagent run \
   author       = {Han, Jungu},
   year         = {2026},
   howpublished = {AAICon 2026 (Korean AI Friends Conference)},
-  note         = {\url{https://github.com/jkf87/research-harness-claude-code}}
+  note         = {\url{https://github.com/jkf87/paper-loop}}
 }
 ```
 
